@@ -68,3 +68,32 @@ button {
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 7px 7px;
 }
+
+button:active{
+    background: black;
+   
+}
+
+/*button:before{
+    content:"Copied";
+    position : absolute;
+    top: -45px;
+    right: 0;
+    background: white;
+    padding: 5px 5px;
+    border-radius: 20px;
+    display: none;
+}
+
+button:after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 25px;
+    width: 10px;
+    height: 10px;
+    background: white;
+    transform: rotate(45deg);
+    display: none;
+}*/
+

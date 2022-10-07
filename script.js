@@ -13,16 +13,9 @@ function generateColors() {
 }
 
 function copy(id) {
-
-    var toBeCopied = $(`#${id}`).next().text();
-    navigator.clipboard.writeText(toBeCopied)
-
-    copied(id);
+  var toBeCopied = $(`#${id}`).next().text();
+  navigator.clipboard.writeText(toBeCopied);
 }
 
-function copied(id) {
-    $(`#${id}`).fadeOut("fast");
-    $(`#${id}`).fadeIn("fast");
-}
 
 generateColors();
